@@ -1,4 +1,4 @@
-package convert
+package function
 
 func Dot[T, T1, T2 any](f func(T) T2, g func(T1) T) func(T1) T2 {
 	return func(x T1) T2 {

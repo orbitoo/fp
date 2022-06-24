@@ -1,4 +1,4 @@
-package curry
+package function
 
 func Curry2[T1 any, T2 any, T any](f func(T1, T2) T) func(T1) func(T2) T {
 	return func(t1 T1) func(T2) T {

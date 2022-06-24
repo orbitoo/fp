@@ -1,4 +1,4 @@
-package maybe
+package boxed
 
 import "fmt"
 

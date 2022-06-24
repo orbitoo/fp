@@ -1,4 +1,4 @@
-package control
+package function
 
 type IfElse[T any] struct {
 	result T
